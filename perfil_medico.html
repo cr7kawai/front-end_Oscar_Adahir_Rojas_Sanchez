@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Información del médico</title>
+
+    <!-- Boostrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/perfil.css" />
+  </head>
+
+  <body background="img/lg.jpg">
+    <header>
+      <img src="img/lab_logo.png" height="90px"><h2>Laboratorios Alquimistas</h2>
+    </header>
+    <hr>
+    <!-- form html start here -->
+    <form>
+        <h1>Infromación del médico</h1>
+        Nombre: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="nombre" id="nombre" placeholder="&#xf007;     Nombre(s)">
+        <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="nombre" id="nombre" placeholder="&#xf007;     Apellido Paterno">
+        <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="am" id="am" placeholder="&#xf007;     Apellido Materno"> 
+        Cédula:<input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="cedula" id="cedula" placeholder="&#xf477;     Cédula médica">
+          Email: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="email" name="email" id="email" placeholder="&#xf0e0;      Correo electrónico">
+          Número de teléfono: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="tel" name="phone" id="phone" placeholder="&#xf095;      Número de teléfono">
+          Sexo: <select class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" name="sexo" id="sexo">
+            <option class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" value="sexo" disabled selected>&#xe216;     Sexo</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+          </select>
+      <left>
+        <button onclick="location.href='#'" id="eliminar" style="background: red; color:white" >Eliminar cuenta</button>
+        <button onclick="location.href='#'" id="actualizar" style="background: #1F2D40; color: white;">Actualizar datos</button>
+      </center>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

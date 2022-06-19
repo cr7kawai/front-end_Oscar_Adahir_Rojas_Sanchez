@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 20px;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background: #D6DBDF;
+    color: #1F2D40;
+  }
+  
+  hr{
+    border: 2px solid #1F2D40;
+  }
+  
+  header{
+    margin-left: 10px;
+  }
+  
+  header h2{
+    display: inline;
+    position:absolute;
+    margin-top: 33px;
+    margin-left: 20px;
+    color: #1F2D40;
+  }
+  
+  form{
+    background: white;
+    width: 890px;
+    height: auto;
+    top: 62%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #1F2D40;
+  }
+  
+  h1{
+    text-align: center;
+    color: #1F2D40;
+  }
+  
+  p{
+    color: #1F2D40;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .form-control{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 7px;
+    width: 370px;
+    margin: 20px;
+  }
+
+  
+  #nombre, #am, #ap{
+    width: 243px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  #fechanac{
+    width: 320px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #usuario, #email, #phone, #fechanac, #cedula{
+    display: inline-block;
+    width: 320px;
+    margin: 10px;
+  }
+
+  #sexo{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+  }

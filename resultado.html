@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Resultado</title>
+
+    <!-- Boostrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/resultado.css" />
+  </head>
+
+  <body background="img/lg.jpg">
+    <header>
+      <img src="img/lab_logo.png" height="90px"><h2>Laboratorios Alquimistas</h2>
+    </header>
+    <hr>
+    <!-- form html start here -->
+    <form>
+        <h1>Resultado clínico</h1>
+        <table>
+        <tr>
+           <th>Resultado: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="id_res" id="id_res" placeholder="&#xf477;     Número de resultado"></th> 
+           <th>Tipo de sangre: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="sangre" id="sangre" placeholder="&#xf043;     Tipo de sangre"></th>
+        </tr>
+        <tr>
+            <th>Enfermedad: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="enfermedad" id="enfermedad" placeholder="&#xe059;     Enfermedad"></th>
+            <th>Glucosa:<input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="glucosa" id="glucosa" placeholder="&#xf1fb;     Glucosa"></th>
+        </tr>
+        <tr>
+            <th>Oxígenación: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="oxigen" id="oxigen" placeholder="&#xf1fb;      Oxígeno en sangre"></th>
+            <th>Colesterol: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="colesterol" id="colesterol" placeholder="&#xf5c7;      Colesterol"></th>
+        </tr>
+        <tr>
+            <th>Paciente: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="username" id="username" placeholder="&#xf007;      Paciente"></th>
+            <th>&nbsp;Médico: <input class="form-control" style="font-family: 'Font Awesome 5 Free'; font-weight: 700" type="text" name="cedula" id="cedula" placeholder="&#xf477;      Cédula médica"></th>
+        </tr>
+        <tr>
+            <th colspan="2"><center><button onclick="location.href=''" id="hecho" >Hecho</button></center></th>
+        </tr>
+        </table>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
